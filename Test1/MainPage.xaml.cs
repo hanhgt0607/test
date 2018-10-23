@@ -30,6 +30,9 @@ namespace Test1
         private void btn_View(object sender, RoutedEventArgs e)
         {
 
+            var rootFrame = Window.Current.Content as Frame;
+
+            rootFrame.Navigate(typeof(Photo));
         }
     }
 }

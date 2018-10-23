@@ -12,7 +12,7 @@
         <StackPanel>
             <AppBarButton  Icon="Back"/>
             <TextBlock Text=" Photo Gallery"/>
-            <Button Content="Get Photo" Margin="0 , 20"/>
+            <Button Content="Get Photo" Margin="0 , 20" Click="BtnPhoto"/>
         </StackPanel>
     </Grid>
 </Page>

@@ -9,6 +9,14 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+        <CommandBar>
+            <AppBarButton Label="click" Icon="Clock" HorizontalAlignment="Left"/>
+            <AppBarButton Label="View Gallery" Icon="Rotate" Click="btn_View"/>
+            <AppBarButton Label="Help" Icon="Help"/>
+        </CommandBar>
+        <StackPanel Margin="100">
+            <TextBlock Text="Demo AppBar"/>
+        </StackPanel>
+        
     </Grid>
 </Page>
